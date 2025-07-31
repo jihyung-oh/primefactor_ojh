@@ -24,3 +24,10 @@ def test_prime_factor_of_4():
 def test_prime_factor_of_6():
     prime_factors = PrimeFactor()
     assert prime_factors.of(6) == [2,3]
+def test_prime_factor_of_9():
+    prime_factors = PrimeFactor()
+    assert prime_factors.of(9) == [3,3]
+
+def test_prime_factor_of_12():
+    prime_factors = PrimeFactor()
+    assert prime_factors.of(12) == [2,2,3]
